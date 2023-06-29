@@ -69,6 +69,7 @@ body{
     }
 }
 .shopping{
+    z-index: 200;
     font-size: 10px;
     letter-spacing: 2px;
     display: flex;
