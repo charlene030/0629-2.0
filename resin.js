@@ -131,6 +131,9 @@ document.querySelectorAll('.js-add-cart').forEach((button) => {
         num++;
         document.getElementById("number").textContent = num;
         document.getElementById("shopping").classList.add("animate");
+        setTimeout(()=>{
+            document.getElementById("shopping").classList.remove("animate");
+        },1500);
     });
 });
 
